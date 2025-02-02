@@ -206,3 +206,15 @@ class SimulationManager {
 
 // Exportovat třídu pro použití v hlavním souboru
 export const simulationManager = new SimulationManager();
+
+<div class="mobile-nav">
+    <button class="mobile-nav-btn active" data-panel="programs">
+        <i class="bi bi-list-ul"></i><br>Programy
+    </button>
+    <button class="mobile-nav-btn" data-panel="editor">
+        <i class="bi bi-code-slash"></i><br>Editor
+    </button>
+    <button class="mobile-nav-btn" data-panel="simulation">
+        <i class="bi bi-play-circle"></i><br>Simulace
+    </button>
+</div>
