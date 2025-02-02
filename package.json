@@ -18,7 +18,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.0.10"
   },
-  "homepage": "https://vaše-username.github.io/název-repozitáře",
+  "homepage": "https://sstistkoo.github.io/edit",
   "devDependencies": {
     "gh-pages": "^6.1.0"
   }
