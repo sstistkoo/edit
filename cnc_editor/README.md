@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # CNC Sinumerik Editor
 
 Online editor pro CNC programy Sinumerik. Umožňuje:
@@ -16,6 +15,3 @@ Online editor pro CNC programy Sinumerik. Umožňuje:
 2. Vyberte vaše MPF a SPF soubory
 3. V levém panelu uvidíte seznam programů s detaily
 4. Kliknutím na program zobrazíte jeho obsah v editoru
-=======
-# edit
->>>>>>> 6c724804f462c289be1ff05fa57b3f4a99da23b4

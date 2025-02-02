@@ -1,0 +1,25 @@
+{
+  "name": "cnc-sinumerik-editor",
+  "version": "1.0.0",
+  "description": "CNC program editor for Sinumerik 840D",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite --host",  // přidáno pro přístup z mobilního zařízení
+    "build": "vite build && cp -r js dist/",  // Kopírování js složky do dist
+    "serve": "vite preview --host",  // přidáno pro přístup z mobilního zařízení
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.3",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.10"
+  },
+  "homepage": "https://sstistkoo.github.io/edit",
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}
