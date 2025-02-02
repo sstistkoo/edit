@@ -6,7 +6,7 @@
   "scripts": {
     "start": "vite",
     "dev": "vite --host",  // přidáno pro přístup z mobilního zařízení
-    "build": "vite build",
+    "build": "vite build && cp -r js dist/",  // Kopírování js složky do dist
     "serve": "vite preview --host",  // přidáno pro přístup z mobilního zařízení
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
